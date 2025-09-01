@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snake Game</title>
+  <style>
+    canvas { background: #222; display:; margin: auto; 
+
+<style>
+  #controls {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  #controls button {
+    font-size: 42px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+</style>
+
+<canvas id="gc" width="400" height="400"></canvas>
+
+<div id="controls" style="text-align:center; margin-top:10px;">
+  <button onclick="Snake.action('up')">⬆️</button><br>
+  <button onclick="Snake.action('left')">⬅️</button>
+  <button onclick="Snake.action('down')">⬇️</button>
+  <button onclick="Snake.action('right')">➡️</button>
+</div>
+  
+  <script src="game.js"></script>
+</body>
+</html>
