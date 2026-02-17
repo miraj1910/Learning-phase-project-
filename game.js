@@ -261,7 +261,7 @@ ctx.fill();
   }
 
   return {
-    start: function (fps = 120) {
+    start: function (fps = 1) {
       window.onload = setup;
       intervalID = setInterval(game.loop, 1000 / fps);
     },
